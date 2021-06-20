@@ -1,0 +1,59 @@
+.user-dashboard__displayName span {
+  font-weight: 500;
+  color: #2268ff;
+}
+
+.user-dashboard__userInfoContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.user-dashboard__location {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.location-icon {
+  color: #29be8d;
+}
+
+.user-dashboard__memberImage img {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+
+.teamDetail__info__row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.teamDetail__info {
+  background-color: #fff;
+  padding: 30px 40px 30px 20px;
+}
+
+.teamDetail__name,
+.teamDetail__teamcount,
+.teamDetail__teamlead {
+  color: #000;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.teamDetail__name span {
+  color: #003647;
+  font-weight: 700;
+}
+
+.teamDetail__teamcount,
+.teamDetail__teamlead {
+  font-size: 18px;
+}
+
+.teamDetail__teamlead span {
+  color: #2268ff;
+}
